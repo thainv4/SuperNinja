@@ -17,17 +17,21 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (stats.Health <= 0f)
         {
-            TakeDamage(1f);
+            
+            PlayerDead();
         }
     }
 
     public void TakeDamage(float amount)
     {
+        if (stats.Health <= 0f) return;
         stats.Health -= amount;
+        DamageManager.Instance.ShowDamageText(amount, transform);
         if (stats.Health <= 0f)
         {
+            stats.Health = 0f;
             PlayerDead();
         }
     }
