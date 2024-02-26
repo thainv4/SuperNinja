@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SceneTemplate;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour, IDamageable
@@ -34,6 +35,20 @@ public class PlayerHealth : MonoBehaviour, IDamageable
             stats.Health = 0f;
             PlayerDead();
         }
+    }
+
+    public void RestoreHealth(float amount)
+    {
+        stats.Health += amount;
+        if(stats.Health > stats.MaxHealth)
+        {
+            stats.Health = stats.MaxHealth;
+        }
+    }
+
+    public bool CanRestoreHealth()
+    {
+        return stats.Health > 0 && stats.Health < stats.MaxHealth;
     }
 
     private void PlayerDead()
