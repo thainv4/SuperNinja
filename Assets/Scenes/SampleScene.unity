@@ -11519,7 +11519,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -63.6, y: -4.6}
+  m_AnchoredPosition: {x: -63.600006, y: -4.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &960310697
@@ -12136,7 +12136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -63.6, y: -4.6}
+  m_AnchoredPosition: {x: -63.600006, y: -4.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1019281767
@@ -57077,7 +57077,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -63.6, y: -4.6}
+  m_AnchoredPosition: {x: -63.600006, y: -4.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1816217951
@@ -58396,6 +58396,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: ae7b2fb3431dbef4ba9eb6f1ee2ba1df, type: 2}
+  HealthPotion: {fileID: 11400000, guid: c72de68794c5b9d4e8502d728424ae72, type: 2}
+  ManaPotion: {fileID: 11400000, guid: 30b7fa408f9404843bc877ee8ee4d116, type: 2}
 --- !u!114 &1981886203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58490,7 +58492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f13fa2944e2ec249be56dfce8951a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stats: {fileID: 0}
+  stats: {fileID: 11400000, guid: ae7b2fb3431dbef4ba9eb6f1ee2ba1df, type: 2}
   settings:
   - Name: Strength
     DamageUpgrade: 2
