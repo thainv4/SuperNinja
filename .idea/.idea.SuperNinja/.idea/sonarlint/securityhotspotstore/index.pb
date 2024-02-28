@@ -1,0 +1,27 @@
+
+O
+Assets/Scripts/Player/Player.cs,7\0\70a1e670e81007eff8156bd1edd1a52ad04b382f
+U
+%Assets/Scripts/Player/PlayerAttack.cs,4\2\42a615a90a33d7d0f2036cfb4c05268f38c88544
+W
+'Assets/Scripts/Player/PlayerMovement.cs,6\8\689b57b4bf45107866204cb0ff5c7734bcc35f2c
+R
+"Assets/Scripts/Player/PlayerExp.cs,b\c\bc34b2e1872951b12a653530d88e7003a66de5e5
+`
+0Assets/Scripts/Inventory/Items/ItemManaPotion.cs,9\b\9b51e4ba42ecf741c9ac09126e5184857cb9cdcc
+Y
+)Assets/Scripts/Inventory/InventoryItem.cs,7\a\7a8c21d180c72f8218814e687b29e1cb372c01ef
+U
+%Assets/Scripts/Inventory/Inventory.cs,7\a\7a062ba09492db284c1499ea414183d1b58098b7
+b
+2Assets/Scripts/Inventory/Items/ItemHealthPotion.cs,a\c\aca2a3d8e401094533c5e02c171a72a985be7b8f
+Y
+)Assets/Scripts/Inventory/InventorySlot.cs,f\b\fb1a9a61f711b466bf04842bc206ff0a5c5976a3
+W
+'Assets/Scripts/Inventory/InventoryUI.cs,a\a\aa2c5633424d68217627b2f50bfd846085dcda14
+Q
+!Assets/Scripts/Extra/Singleton.cs,9\1\91f3e968017bba3fc658906303de20149c3b6048
+X
+(Assets/Scripts/Managers/WeaponManager.cs,d\1\d1218404d78f6b2f07eef38c37cc33251ccba23e
+\
+,Assets/Scripts/Inventory/Items/ItemWeapon.cs,1\0\10d581154d6df76d5c165e8491bc7a15291ad37c

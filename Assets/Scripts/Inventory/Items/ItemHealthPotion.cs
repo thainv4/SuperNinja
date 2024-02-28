@@ -1,7 +1,5 @@
 using UnityEngine;
 
-namespace Inventory.Items
-{
     [CreateAssetMenu(fileName = "ItemHealthPotion", menuName = "Items/Health Potion")]
     public class ItemHealthPotion : InventoryItem
     {
@@ -18,4 +16,3 @@ namespace Inventory.Items
             return false;
         }
     }
-}
