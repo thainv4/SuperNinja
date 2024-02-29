@@ -16,7 +16,7 @@ MonoBehaviour:
   Name: Scroll Ice
   Icon: {fileID: 21300000, guid: 9f46038650ffab749a79c02f96037738, type: 3}
   Description: A paper with ice symbols that can make things freeze.
-  ItemType: 2
+  ItemType: 0
   IsConsumable: 0
   IsStackable: 1
   MaxStack: 10

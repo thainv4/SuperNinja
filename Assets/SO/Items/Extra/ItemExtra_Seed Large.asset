@@ -16,7 +16,7 @@ MonoBehaviour:
   Name: Seed Large
   Icon: {fileID: 21300000, guid: e7b78d782e06a1546ac11e88283cc54f, type: 3}
   Description: an edible seed
-  ItemType: 3
+  ItemType: 0
   IsConsumable: 0
   IsStackable: 1
   MaxStack: 50

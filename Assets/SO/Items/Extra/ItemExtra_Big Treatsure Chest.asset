@@ -16,7 +16,7 @@ MonoBehaviour:
   Name: Big Treatsure Chest
   Icon: {fileID: 21300000, guid: 105a52a94b2e4cf4c9d2960ab47a9ef8, type: 3}
   Description: A Big Treatsure Chest
-  ItemType: 4
+  ItemType: 0
   IsConsumable: 0
   IsStackable: 1
   MaxStack: 10

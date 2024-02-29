@@ -16,7 +16,7 @@ MonoBehaviour:
   Name: Scroll Rock
   Icon: {fileID: 21300000, guid: b0d60b912b81b8248bf86bc62609b75a, type: 3}
   Description: A piece of paper with a stone symbol can stun everything.
-  ItemType: 2
+  ItemType: 0
   IsConsumable: 0
   IsStackable: 1
   MaxStack: 10

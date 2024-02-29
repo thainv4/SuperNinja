@@ -8801,9 +8801,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ee3a013f9c48324786e57a176bb550c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameContent: {fileID: 11400000, guid: 72d81cb5c344b7841b915ad267581963, type: 2}
   inventorySize: 24
   inventoryItems: []
-  testItem: {fileID: 11400000, guid: 151c263bd4048b047977600dcdef5dd3, type: 2}
+  testItem: {fileID: 11400000, guid: c72de68794c5b9d4e8502d728424ae72, type: 2}
 --- !u!114 &583976507
 MonoBehaviour:
   m_ObjectHideFlags: 0

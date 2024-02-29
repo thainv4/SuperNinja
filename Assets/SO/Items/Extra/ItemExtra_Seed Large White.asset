@@ -16,7 +16,7 @@ MonoBehaviour:
   Name: Seed Large White
   Icon: {fileID: 21300000, guid: 54bf49e6de15e1340a5ff008fbbedb54, type: 3}
   Description: an edible seed but it is white
-  ItemType: 3
+  ItemType: 0
   IsConsumable: 0
   IsStackable: 1
   MaxStack: 50
