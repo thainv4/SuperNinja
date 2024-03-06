@@ -1,13 +1,15 @@
-
+using System;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class DialogueManager : Singleton<DialogueManager>
 {
-    [Header("Config")]
-    [SerializeField] private GameObject dialoguePanel;
+    public static event Action<InteractionType> OnExtraInteractionEvent;
+
+    [Header("Config")] [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private Image npcIcon;
     [SerializeField] private TextMeshProUGUI npcNameTMP;
     [SerializeField] private TextMeshProUGUI npcDialogueTMP;
@@ -17,9 +19,9 @@ public class DialogueManager : Singleton<DialogueManager>
     private bool dialogueStarted;
     private PlayerActions actions;
     private Queue<string> dialogueQueue = new Queue<string>();
+
     protected override void Awake()
     {
-        
         base.Awake();
         actions = new PlayerActions();
     }
@@ -48,7 +50,7 @@ public class DialogueManager : Singleton<DialogueManager>
 
     private void ShowDialogue()
     {
-        if(NPCSelected == null) return;
+        if (NPCSelected == null) return;
         if (dialogueStarted) return;
         dialoguePanel.SetActive(true);
         LoadDialogueFromNPC();
@@ -60,16 +62,21 @@ public class DialogueManager : Singleton<DialogueManager>
 
     private void ContinueDialogue()
     {
-        if(NPCSelected == null)
+        if (NPCSelected == null)
         {
             dialogueQueue.Clear();
             return;
         }
 
-        if(dialogueQueue.Count <= 0) 
+        if (dialogueQueue.Count <= 0)
         {
             CloseDialogueOPanel();
             dialogueStarted = false;
+            if (NPCSelected.DialogueToShow.HasInteraction)
+            {
+                OnExtraInteractionEvent?.Invoke(NPCSelected.DialogueToShow.InteractionType);
+            }
+
             return;
         }
 

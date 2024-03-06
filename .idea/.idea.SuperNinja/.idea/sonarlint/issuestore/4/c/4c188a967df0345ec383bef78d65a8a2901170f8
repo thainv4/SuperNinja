@@ -1,0 +1,10 @@
+
+|csharpsquid:S101"[Rename class 'NPCDialogue' to match pascal case naming rules, consider using 'NpcDialogue'.(©æÙ£øÿÿÿÿ
+Lcsharpsquid:S3903"*Move 'NPCDialogue' into a named namespace.(©æÙ£øÿÿÿÿ
+Kcsharpsquid:S3903".Move 'InteractionType' into a named namespace.(‚Á›ß
+fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÇêßÔÿÿÿÿÿ
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(öØÄ½
+fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(æ›ËÚøÿÿÿÿ
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ƒğ‹
+fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(İƒÚùÿÿÿÿ
+fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ñğœ¸øÿÿÿÿ

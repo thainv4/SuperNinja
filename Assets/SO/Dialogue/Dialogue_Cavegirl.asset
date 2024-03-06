@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Cavegirl
   Icon: {fileID: 21300000, guid: 0d559138143951f4ea99e7f48c3fe606, type: 3}
-  HasInteraction: 0
+  HasInteraction: 1
   InteractionType: 0
-  Greeting: Hi Adventurer!
+  Greeting: Hi there, Adventurer!
   Dialogue:
-  - Do you want to explore this dangerous land?.
-  - You are brave, good luck, be careful and have a great adventure.
+  - "Are you looking for thrilling challenges and great reward?\t"
+  - I have a perfect task for you.

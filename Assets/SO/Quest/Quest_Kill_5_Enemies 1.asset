@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4329d90f72731e24ea8a523b40ce9e79, type: 3}
+  m_Name: Quest_Kill_5_Enemies 1
+  m_EditorClassIdentifier: 
+  Name: Enemy Destroyer
+  Id: Kill5Enemy
+  QuestGoal: 5
+  Description: Track down and defeat 5 enemies
+  GoldReward: 50
+  ExpReward: 60
+  ItemReward:
+    Item: {fileID: 11400000, guid: c72de68794c5b9d4e8502d728424ae72, type: 2}
+    Quantity: 10
+  CurrentStatus: 0
+  QuestCompleted: 0
+  QuestAccepted: 0
