@@ -47,3 +47,9 @@ V
 &Assets/Scripts/Managers/GameManager.cs,a\8\a83f2db293a36f8073cf20ff67409a2e188f7359
 V
 &Assets/Scripts/Managers/CoinManager.cs,6\6\66837d611b27336d8fd40f7ade221640787f4eb8
+O
+Assets/Scripts/Shop/ShopItem.cs,f\9\f905f2145ea2779d1550c7725ce91440fe282700
+O
+Assets/Scripts/Shop/ShopCard.cs,3\7\377480c6c59b195d5124b14d356e5a97e63990ba
+R
+"Assets/Scripts/Shop/ShopManager.cs,1\2\12313ff1c6a02eee872038087c1e1ef98ccc467f
