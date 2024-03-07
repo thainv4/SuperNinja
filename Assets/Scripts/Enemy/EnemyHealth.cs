@@ -16,6 +16,8 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     private EnemyBrain enemyBrain;
     private EnemyLoot enemyLoot;
     private EnemySelector enemySelector;
+    private float reviveTimer;
+    private float reviveDelay = 15f;
 
     private void Awake()
     {
@@ -53,6 +55,31 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         rb2D.bodyType = RigidbodyType2D.Static;
         OnEnemyDeadEvent?.Invoke();
         GameManager.Instance.AddPlayerExp(enemyLoot.ExpDrop);
+    }
+
+    private void Update()
+    {
+        // Revive countdown timer
+        if (CurrentHealth <= 0)
+        {
+            reviveTimer += Time.deltaTime;
+            if (reviveTimer >= reviveDelay)
+            {
+                ReviveEnemy();
+            }
+        }
+    }
+
+    private void ReviveEnemy()
+    {
+        // Reset health and revive the enemy
+        CurrentHealth = health;
+        animator.SetTrigger("Walk"); // Assuming you have a "Revive" animation
+        enemyBrain.enabled = true;
+        rb2D.bodyType = RigidbodyType2D.Dynamic;
+
+        // Reset revive timer
+        reviveTimer = 0f;
     }
 }
 
