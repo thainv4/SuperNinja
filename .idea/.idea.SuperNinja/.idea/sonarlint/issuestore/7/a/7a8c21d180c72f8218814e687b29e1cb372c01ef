@@ -1,12 +1,12 @@
 
-Dcsharpsquid:S3903"'Move 'ItemType' into a named namespace.(ÍíÎÛ
-Icsharpsquid:S3903",Move 'InventoryItem' into a named namespace.(°ßÒï
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(•‹ùí
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÇêßÔÿÿÿÿÿ
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(öØÄ½
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(«ˆ‡‡ıÿÿÿÿ
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¼ø÷à
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(©€¶ûÿÿÿÿ
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(–¬¢Àıÿÿÿÿ
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÃıÖ¾
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(›àÛüÿÿÿÿ
+jcsharpsquid:S3903"'Move 'ItemType' into a named namespace.(ÍíÎÛJ$19df79fa-a018-4fda-ade8-a99c2b272027
+ocsharpsquid:S3903",Move 'InventoryItem' into a named namespace.(°ßÒïJ$6ba30f01-18b0-4823-89f0-2b4c51744327
+‡csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(•‹ùíJ$42669490-f403-4dd0-9c4c-e7f5a3d328a4
+Œcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÇêßÔÿÿÿÿÿJ$062a788d-4b54-4f1a-8e2d-2d055dbb1476
+‡csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(öØÄ½J$c2280913-cfe9-4f1e-8baf-703bde7d0c8b
+Œcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(«ˆ‡‡ıÿÿÿÿJ$a6ace856-053d-4820-9490-27de9d2b5bbb
+‡csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¼ø÷àJ$b974421a-1150-41bc-bb5b-22b4c1967aee
+Œcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(©€¶ûÿÿÿÿJ$62940d48-7396-4981-8aa2-0f1d4142e10b
+Œcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(–¬¢ÀıÿÿÿÿJ$fb75bc60-548b-4a31-a4ea-e7cba3a58cd8
+‡csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÃıÖ¾J$93669d39-d85a-4a78-bf3b-edfbebad2a2d
+Œcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÿîõÔıÿÿÿÿJ$22b33a8b-dd5e-4651-bf88-daef6bd4c2b8

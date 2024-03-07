@@ -14,10 +14,8 @@ public class NPCInteraction : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-
             DialogueManager.Instance.NPCSelected = this;
             interactionBox.SetActive(true);
-
         }
 
     }

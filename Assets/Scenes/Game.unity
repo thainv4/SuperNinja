@@ -16365,7 +16365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -147.30002, y: 49}
+  m_AnchoredPosition: {x: -147.30005, y: 49}
   m_SizeDelta: {x: -1911.7, y: -1015.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1002967974
@@ -65958,10 +65958,19 @@ MonoBehaviour:
   items:
   - Name: Health Potion
     Item: {fileID: 11400000, guid: c72de68794c5b9d4e8502d728424ae72, type: 2}
-    Cost: 5
+    Cost: 10
   - Name: Bone
     Item: {fileID: 11400000, guid: 3e1a583a96b2c7b42b6a5c611a56c3d8, type: 2}
     Cost: 150
+  - Name: Mana Potion
+    Item: {fileID: 11400000, guid: 30b7fa408f9404843bc877ee8ee4d116, type: 2}
+    Cost: 10
+  - Name: Magic Book
+    Item: {fileID: 11400000, guid: 151c263bd4048b047977600dcdef5dd3, type: 2}
+    Cost: 10
+  - Name: Stick
+    Item: {fileID: 11400000, guid: a21c22bb02dff25458be8f7a218c8e5e, type: 2}
+    Cost: 160
 --- !u!1 &1766913581
 GameObject:
   m_ObjectHideFlags: 0

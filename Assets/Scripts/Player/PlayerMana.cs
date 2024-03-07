@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PlayerMana : MonoBehaviour
 {
-    [Header("Config")]
+    [Header("Config")] 
     [SerializeField] private PlayerStats stats;
 
     public float CurrentMana { get; private set; }
@@ -19,7 +20,7 @@ public class PlayerMana : MonoBehaviour
             UseMana(1f);
         }
     }
-    
+
     public void UseMana(float amount)
     {
         stats.Mana = Mathf.Max(stats.Mana -= amount, 0f);
@@ -31,12 +32,12 @@ public class PlayerMana : MonoBehaviour
         stats.Mana += amount;
         stats.Mana = Mathf.Min(stats.Mana, stats.MaxMana);
     }
-
+    
     public bool CanRecoverMana()
     {
         return stats.Mana > 0 && stats.Mana < stats.MaxMana;
     }
-
+    
     public void ResetMana()
     {
         CurrentMana = stats.MaxMana;

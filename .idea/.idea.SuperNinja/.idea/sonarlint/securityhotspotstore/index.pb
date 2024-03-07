@@ -53,3 +53,11 @@ O
 Assets/Scripts/Shop/ShopCard.cs,3\7\377480c6c59b195d5124b14d356e5a97e63990ba
 R
 "Assets/Scripts/Shop/ShopManager.cs,1\2\12313ff1c6a02eee872038087c1e1ef98ccc467f
+S
+#Assets/Scripts/Player/PlayerMana.cs,a\a\aa334b9569cb0bc8d24b812026dd14094b3ecba4
+O
+Assets/Scripts/Weapon/Weapon.cs,f\8\f8555916c3a2f849780340609a670fa4737c4647
+U
+%Assets/Scripts/Player/PlayerHealth.cs,d\d\dd52c4c8f52c288359a9a7cc236984c80889c3fa
+T
+$Assets/Scripts/NPC/NPCInteraction.cs,8\b\8b835100122813d7e87f8a97acaffeab6168e90c
